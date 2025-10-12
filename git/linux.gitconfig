@@ -1,0 +1,3 @@
+# Manually added signing key
+[user]
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO6zPt8cMGGX65p52+z8E9+5GVvkOJo8kCSJZ6KYMQ/+ christine

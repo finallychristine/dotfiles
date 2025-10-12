@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+
+HOME_DIR = File.expand_path('~')
+SYMLINK_DIR = File.join(__dir__, 'symlinks')
+
+puts "Home directory is: #{HOME_DIR}"
+puts "Symlink directory is: #{SYMLINK_DIR}"
+
+
+Dir.foreach(File.join __dir__, 'symlinks') do |item|
+  next if item == '.' or item == '..'
+
+  proposed_path = File.join(HOME_DIR, item)
+  original_path = File.join(SYMLINK_DIR, item)
+
+  if File.exist?(proposed_path)
+    if File.identical?(original_path, proposed_path)
+      puts "Path '#{proposed_path}' already symlinked"
+    else
+      puts "WARNING: path '#{proposed_path} exists; ignoring"
+    end
+    next
+  end
+
+
+  File.symlink(original_path, proposed_path)
+  puts "Created symlink #{original_path} => #{proposed_path}"
+end

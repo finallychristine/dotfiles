@@ -1,0 +1,6 @@
+# Uses 1Password keys
+[user]
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGTyTkGY2FVdZFLRkig9Fu0guv9JSOZVJECqg/wpRL0W
+
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
