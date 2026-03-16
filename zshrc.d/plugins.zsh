@@ -3,4 +3,4 @@
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git ruby nvm history history-substring-search brew rails git-extras)
+plugins=(git history history-substring-search brew git-extras)

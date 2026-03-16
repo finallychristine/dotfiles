@@ -10,5 +10,4 @@ add_to_path_if_exists "/Applications/Visual Studio Code.app/Contents/Resources/a
 add_to_path_if_exists "/Applications/Postgres.app/Contents/Versions/latest/bin"
 add_to_path_if_exists "$HOME/bin-dotfiles"
 add_to_path_if_exists "/usr/local/opt/go/libexec/bin"
-add_to_path_if_exists "$HOME/.rvm/bin"
 add_to_path_if_exists "$HOME/Library/Android/sdk/platform-tools"
