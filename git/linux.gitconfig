@@ -1,4 +1,3 @@
 # Manually added signing key
 [user]
-  signingkey = /home/christine/.ssh/id_ed25519.pub
-
+  signingkey = ~/.ssh/id_ed25519.pub

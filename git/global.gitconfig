@@ -1,0 +1,64 @@
+[include]
+  path = ~/dotfiles/git/.system.gitconfig
+
+[user]
+  name = Christine Thornton
+  email =  237637779+finallychristine@users.noreply.github.com
+
+[gpg]
+  format = ssh
+
+[commit]
+  gpgsign = true
+
+[rerere]
+  enabled = 1
+[color]
+  ui = auto
+[branch]
+  autosetupmerge = always
+  autosetuprebase = always
+[push]
+  default = simple
+[alias]
+  ## Most commonly used
+  ci = commit
+  co = checkout
+  st = status
+  rb = rebase
+  cp = cherry-pick
+  fp = push --force
+  br = branch
+  p = pull
+
+  ## Other common useful ones
+
+  # Removes untracked files
+  purge = reset HEAD --hard
+
+  ## git squash <n> -- squashes <n> commits into one
+  squash = "!f(){ git reset --soft HEAD~${1} && git ci --edit -m\"$(git log --format=%B --reverse HEAD..HEAD@{1})\"; };f"
+
+  ## Other Misc
+  reci = "!git recommit"
+  recommit = "!git ci --amend -CHEAD"
+
+  current-branch = rev-parse --symbolic-full-name --abbrev-ref HEAD
+  ancestor = !bash -c 'diff --old-line-format= --new-line-format= <(git rev-list --first-parent \"${1:-master}\") <(git rev-list --first-parent \"${2:-HEAD}\") | head -1' -
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  reauthor = commit --amend --reset-author -C HEAD
+
+[core]
+	excludesfile = ~/dotfiles/git/global.gitignore
+  editor=vim
+[oh-my-zsh]
+	hide-dirty = 1
+[diff]
+	compactionHeuristic = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+	process = git-lfs filter-process
+[init]
+	defaultBranch = main
