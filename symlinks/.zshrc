@@ -15,9 +15,5 @@ done
 
 source $ZSH/oh-my-zsh.sh
 
-if [[ -n "$SSH_TTY" ]]; then
-  PROMPT="📞 $PROMPT"
-fi
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
