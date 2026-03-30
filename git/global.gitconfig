@@ -16,10 +16,10 @@
 [color]
   ui = auto
 [branch]
-  autosetupmerge = always
   autosetuprebase = always
 [push]
   default = simple
+  autoSetupRemote = true
 [alias]
   ## Most commonly used
   ci = commit
