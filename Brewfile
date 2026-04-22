@@ -13,3 +13,18 @@ brew "git-secret"
 brew "openjdk"
 brew "pyenv"
 brew "rbenv"
+brew "go"
+
+# fonts for p10k
+cask "font-meslo-for-powerlevel10k"
+
+# Other third-party development tools
+cask "visual-studio-code"
+cask "jetbrains-toolbox"
+cask "claude"
+cask "claude-code"
+cask "iterm2"
+cask "docker-desktop"
+cask "1password"
+cask "firefox"
+cask "google-chrome"
