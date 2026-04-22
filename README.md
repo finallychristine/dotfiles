@@ -37,17 +37,14 @@ Install the following:
 
 ```sh
 # Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew bundle # inside this repo
 
 # ZSH, Oh-My-ZSH
-brew install zsh
 curl -L http://install.ohmyz.sh | sh
 
 # p10k theme
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
-
-# fonts, might be needed
-brew install font-hack-nerd-font
 ```
 
 Potentially required manual steps:

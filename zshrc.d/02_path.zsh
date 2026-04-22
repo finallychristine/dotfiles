@@ -12,3 +12,5 @@ add_to_path_if_exists "$HOME/bin-dotfiles"
 add_to_path_if_exists "/usr/local/opt/go/libexec/bin"
 add_to_path_if_exists "$HOME/Library/Android/sdk/platform-tools"
 add_to_path_if_exists "$HOME/.local/bin"
+# Newer version of curl with http3 and friends: https://formulae.brew.sh/formula/curl
+add_to_path_if_exists "/opt/homebrew/opt/curl/bin"
