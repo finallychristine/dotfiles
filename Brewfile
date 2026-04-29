@@ -14,6 +14,7 @@ brew "openjdk"
 brew "pyenv"
 brew "rbenv"
 brew "go"
+brew "xcodes"
 
 # fonts for p10k
 cask "font-meslo-for-powerlevel10k"

@@ -58,11 +58,11 @@ This automatically adds the following useful tools:
 * [pyenv](https://github.com/pyenv/pyenv) - Python
 * [openjdk](https://openjdk.org/) - Java
 * [Go](https://go.dev/)
+* [xcodes](https://github.com/XcodesOrg/xcodes) - Xcode version manager
 
 Tools that aren't auto-installed, but these dotfiles support. Requires manual installation:
 
 * [nvm](https://github.com/nvm-sh/nvm) - Node
-* [Xcode](https://developer.apple.com/xcode/) (download from app store)
 
 ## Other Gotchas
 
