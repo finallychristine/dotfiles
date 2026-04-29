@@ -34,8 +34,11 @@ Set up [homebrew](https://brew.sh/), [oh my zsh](https://ohmyz.sh/) and the [p10
 
 ```sh
 # Homebrew
+cd ~/dotfiles
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew bundle # inside this repo
+brew bundle install
+# on my personal machine only
+brew bundle install --file=Brewfile.personal
 
 # Oh-My-ZSH
 curl -L http://install.ohmyz.sh | sh
@@ -69,6 +72,8 @@ Tools that aren't auto-installed, but these dotfiles support. Requires manual in
 Auto-installed by the Brewfile via casks
 
 * [Ice menu manager](https://github.com/jordanbaird/Ice)
+* [Bruno](https://www.usebruno.com/) - postman replacement
+* [Shottr](https://shottr.cc/) - screenshot tool
 * [iTerm2](https://iterm2.com/)
 * [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)
 * [VSCode](https://code.visualstudio.com/)

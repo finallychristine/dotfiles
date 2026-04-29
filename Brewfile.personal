@@ -1,0 +1,8 @@
+cask "proton-mail"
+cask "proton-drive"
+cask "protonvpn"
+cask "firefox"
+cask "discord"
+cask "spotify"
+cask "plex"
+cask "sonos"

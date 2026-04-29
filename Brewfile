@@ -26,8 +26,9 @@ cask "claude-code"
 cask "iterm2"
 cask "docker-desktop"
 cask "1password"
-cask "firefox"
 cask "google-chrome"
+cask "bruno"
 
 # Fancy utilities
 cask "jordanbaird-ice"
+cask "shottr"
