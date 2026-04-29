@@ -15,6 +15,7 @@ brew "pyenv"
 brew "rbenv"
 brew "go"
 brew "xcodes"
+brew "aria2" # makes xcodes download a lot faster
 
 # fonts for p10k
 cask "font-meslo-for-powerlevel10k"
