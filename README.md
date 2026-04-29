@@ -78,6 +78,8 @@ Auto-installed by the Brewfile via casks
 * [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)
 * [VSCode](https://code.visualstudio.com/)
 * [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+* [Wireshark](https://www.wireshark.org/)
+* [Charles](https://www.charlesproxy.com/)
 * [1Password](https://1password.com/)
 * [Claude & Claude Code](https://claude.com/product/claude-code)
 * [Firefox](https://www.firefox.com/en-US/)

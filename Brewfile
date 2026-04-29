@@ -29,6 +29,8 @@ cask "docker-desktop"
 cask "1password"
 cask "google-chrome"
 cask "bruno"
+cask "wireshark-app"
+cask "charles"
 
 # Fancy utilities
 cask "jordanbaird-ice"
