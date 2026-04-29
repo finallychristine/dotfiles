@@ -35,3 +35,4 @@ cask "charles"
 # Fancy utilities
 cask "jordanbaird-ice"
 cask "shottr"
+cask "alfred"

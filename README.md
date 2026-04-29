@@ -75,6 +75,7 @@ Auto-installed by the Brewfile via casks
 * [Bruno](https://www.usebruno.com/) - postman replacement
 * [Shottr](https://shottr.cc/) - screenshot tool
 * [iTerm2](https://iterm2.com/)
+* [Alfred](https://www.alfredapp.com/)
 * [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)
 * [VSCode](https://code.visualstudio.com/)
 * [Docker Desktop](https://www.docker.com/products/docker-desktop/)
