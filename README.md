@@ -64,3 +64,16 @@ Tools that aren't auto-installed, but these dotfiles support. Requires manual in
 ## Other Gotchas
 
 * This adds a newer version of curl, which lets you do `curl --http3-only`. This newer version of curl might cause issues.
+
+## Other Useful Tools
+Auto-installed by the Brewfile via casks
+
+* [Ice menu manager](https://github.com/jordanbaird/Ice)
+* [iTerm2](https://iterm2.com/)
+* [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)
+* [VSCode](https://code.visualstudio.com/)
+* [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+* [1Password](https://1password.com/)
+* [Claude & Claude Code](https://claude.com/product/claude-code)
+* [Firefox](https://www.firefox.com/en-US/)
+* [Chrome](https://www.google.com/chrome/)

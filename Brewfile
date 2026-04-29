@@ -28,3 +28,6 @@ cask "docker-desktop"
 cask "1password"
 cask "firefox"
 cask "google-chrome"
+
+# Fancy utilities
+cask "jordanbaird-ice"
