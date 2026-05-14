@@ -1,4 +1,6 @@
-brew "curl" # http3 support with curl!
+brew "curl"    # http3 support with curl!
+brew "openssh" # latest SSH with modern defaults like post-quantum security
+brew "vim"     # always use the latest version of vim
 brew "direnv"
 brew "htop"
 brew "ripgrep"
@@ -23,10 +25,7 @@ cask "font-meslo-for-powerlevel10k"
 # Other third-party development tools
 cask "visual-studio-code"
 cask "jetbrains-toolbox"
-cask "claude"
-cask "claude-code"
 cask "iterm2"
-cask "docker-desktop"
 cask "1password"
 cask "google-chrome"
 cask "bruno"
@@ -37,3 +36,6 @@ cask "charles"
 cask "jordanbaird-ice"
 cask "shottr"
 cask "alfred"
+
+# Other nice apps
+cask "spotify"
