@@ -12,7 +12,7 @@ brew "git-lfs"
 brew "git-secret"
 
 # other dev env stuff
-brew "openjdk"
+brew "temurin" # avoid openjdk as oracle still has their hands in it
 brew "pyenv"
 brew "rbenv"
 brew "go"
